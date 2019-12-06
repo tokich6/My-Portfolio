@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>My Portfolio</title>
+  <title>Tonika Valderrama</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap" rel="stylesheet">
@@ -11,65 +11,82 @@
 
 <body>
   <!-- NAVBAR -->
-  <div>
-  <nav class="navbar">
-    <ul class="main-nav">
-      <li class="link animated bounceInDown"><a id="my-name" href="#">&lt;&topf;&oopf;&nopf;&iopf;&kopf;&aopf;&gt; <br>
-        &lt;&vopf;&aopf;&lopf;&dopf;&eopf;&ropf;&ropf;&aopf;&mopf;&aopf;&sol;&gt;</a></li>
-      <li class="link link-toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-      <li class="link item push"> <a href="#">About</a> </li>
-      <li class="link item"><a href="#">Portfolio</a></li>
-      <li class="link item"><a href="#">Contact me</a></li>
-    </ul>
-  </nav>
+  <div class="row">
+    <nav class="navbar">
+      <ul class="main-nav">
+        <li class="link animated bounceInDown"><a id="my-name" href="#"> Tonika Valderrama
+          </a></li>
+        <li class="link link-toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li class="link item push "> <a href="#">Who Am I?</a> </li>
+        <li class="link item"><a href="#">My Recent Work</a></li>
+        <li class="link item"><a href="#">Say Hello</a></li>
+
+      </ul>
+    </nav>
   </div>
   <!-- COVER -->
-   <section>
-      <div class="container">
-        <img class="stretch" src="./img/covernew_800x346.jpg" alt="" srcset="">  
+  <section>
+    <div class="container">
+      <div class="column column-hero">
+        <img class="hero" src="./img/404.svg.svg" alt="" srcset="">
       </div>
-   </section>
-  
-  <!-- ABOUT -->
-  <div class="container-about">
-    <h1 class="animated rollIn">Hello. I'm Tonika</h1>
-     <h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ex inventore omnis porro perferendis impedit quia excepturi ullam enim accusantium consequuntur velit sed dolore deleniti, voluptas, beatae, debitis placeat asperiores?
-     </h4>
-    
+      <div class=" column column-text">
+        <div class="animated rollIn">
+          <h1> Hello, I'm Tonika. Nice to meet you.
+            <h3>A Web Developer who enjoys creating simple web products - because less is more.</h3>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <h4>
+    <q> <em>
+        There are two ways of constructing a software design: One way is to make it so simple that there are obviously
+        no
+        deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.
+      </em>
+    </q> <br> <br>
+    <cite>
+      C.A.R. Hoare, 1980 ACM Turing Award Lecture
+    </cite>
+  </h4>
   </div>
 
-  <!-- GRID -->
+  <!-- PORTFOLIO -->
 
   <section class="cards-wrapper">
-    <div class="card-grid-space">
-      <!-- <div class="num">01</div> -->
-      <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
-        <div>
-          <h1>HTML Syntax</h1>
-          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-          <div class="date">6 Oct 2017</div>
-          <div class="tags">
-            <div class="tag">HTML</div>
+
+      <div class="card-grid-space">
+          <div class="card" style="--bg-img: url(./img/yelpcamp.png)">
+          <div>
+            <h1>Full Stack Application</h1>
+            <p>Learn about some of the most common HTML tags…</p>
+            <div class="tags">
+              <div class="tag"> <a href="https://protected-gorge-29045.herokuapp.com/" target="_blank">View Application</a></div>
+            </div>
           </div>
         </div>
-      </a>
-    </div>
-    <div class="card-grid-space">
-      <!-- <div class="num">02</div> -->
-      <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
-        <div>
-          <h1>Basic types of HTML tags</h1>
-          <p>Learn about some of the most common HTML tags…</p>
-          <div class="date">9 Oct 2017</div>
-          <div class="tags">
-            <div class="tag">HTML</div>
-          </div>
         </div>
-      </a>
+
+    <div class="card-grid-space">
+      <div class="card" style="--bg-img: url(./img/guerci.png)">
+      <div>
+        <h1>Static Company Website</h1>
+        <p>Learn about some of the most common HTML tags…</p>
+        <div class="tags">
+          <div class="tag"> <a href="https://maya-hub.github.io/" target="_blank">View Website</a></div>
+        </div>
+      </div>
     </div>
+    </div>
+
+
     <div class="card-grid-space">
       <!-- <div class="num">03</div> -->
-      <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+      <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
+        style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
         <div>
           <h1>Links, images and about file paths</h1>
           <p>Learn how to use links and images along with file paths…</p>
@@ -81,18 +98,19 @@
       </a>
     </div>
     <div class="card-grid-space">
-        <!-- <div class="num">03</div> -->
-        <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
-          <div>
-            <h1>Links, images and about file paths</h1>
-            <p>Learn how to use links and images along with file paths…</p>
-            <div class="date">14 Oct 2017</div>
-            <div class="tags">
-              <div class="tag">HTML</div>
-            </div>
+      <!-- <div class="num">03</div> -->
+      <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
+        style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+        <div>
+          <h1>Links, images and about file paths</h1>
+          <p>Learn how to use links and images along with file paths…</p>
+          <div class="date">14 Oct 2017</div>
+          <div class="tags">
+            <div class="tag">HTML</div>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
+    </div>
     <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
   </section>
 
@@ -104,9 +122,14 @@
   <footer class="yellow footer-text">
     <img src="./icons/Github.png" alt="">
     <img src="./icons/Linkedin (1).png" alt="">
-    &lt;&topf;&oopf;&nopf;&iopf;&kopf;&aopf;&gt;&lt;&vopf;&aopf;&lopf;&dopf;&eopf;&ropf;&ropf;&aopf;&mopf;&aopf;&sol;&gt;</footer>
+    <p>Created </p>
+  </footer>
+
 
   <script src="./portfolio.js"></script>
 </body>
-
 </html>
+
+<!-- &lt;Tonika&gt; &lt;Valderrama&sol;&gt; -->
+<!-- &lt;&topf;&oopf;&nopf;&iopf;&kopf;&aopf;&gt; <br>
+        &lt;&vopf;&aopf;&lopf;&dopf;&eopf;&ropf;&ropf;&aopf;&mopf;&aopf;&sol;&gt; -->

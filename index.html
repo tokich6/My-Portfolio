@@ -3,14 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="web developer">
+  <meta name="description" content="TTonika Valderrama. A Miami based web developer.">
   <meta name="keywords" content="web development, web design, coding">
   <meta name="author" content="Tonika Valderrama">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tonika Valderrama</title>
+  <!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  <title>Tonika Valderrama | Portfolio</title>
+
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous"></script> -->
   <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
@@ -21,10 +28,19 @@
       <ul class="main-nav">
         <li class="link animated bounceInDown"><a id="my-name" href="#"> Tonika Valderrama
           </a></li>
-        <li class="link link-toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li class="link link-toggle"><a href="#"> 
+          <div class="bar_container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </a></li>
+          <!-- <i class="fas fa-bars"></i> -->
+        
         <li class="link item push "> <a href="#">Who Am I?</a> </li>
         <li class="link item"><a href="#">My Recent Work</a></li>
-        <li class="link item"><a href="#">Say Hello</a></li>
+        <li class="link item"><a href="mailto:hello@tonika.tech" target="_blank">
+          Say Hello</a></li>
 
       </ul>
     </nav>
@@ -64,7 +80,7 @@
     </h2>
   </header>
 
-  <section>
+  <section class="profile-container">
     <h2>Who Am I?</h2>
     <div class="aboutMe">
       <p>
@@ -81,12 +97,25 @@
   </section>
 
 
+<section>
+  <div class="contact_container">
+    <div> 
+      <div>
+        <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
+      </div>
+      <img src="./img/contact.svg.svg" alt="contact me" srcset="" class="contact_svg">
+    </div>
+  
+    
 
+  </div>
+  
+</section>
 
   <footer class="yellow footer-text">
-    <img src="./icons/Github.png" alt="">
-    <img src="./icons/Linkedin (1).png" alt="">
-    <p>Created </p>
+    <!-- <img src="./icons/Github.png" alt=""> -->
+    <!-- <img src="./icons/Linkedin (1).png" alt=""> -->
+    <p> © 2019 Tonika Valderrama. All rights reserved. </p>
   </footer>
 
 

@@ -1,3 +1,7 @@
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
 function classToggle() {
     const navs = document.querySelectorAll('.item')
     

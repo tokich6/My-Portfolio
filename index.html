@@ -15,7 +15,7 @@
   <title>Tonika Valderrama | Portfolio</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -26,8 +26,10 @@
   <div class="row">
     <nav class="navbar">
       <ul class="main-nav">
+        
         <li class="link animated bounceInDown"><a id="my-name" href="#"> Tonika Valderrama
           </a></li>
+
         <li class="link link-toggle"><a href="#"> 
           <div class="bar_container" onclick="myFunction(this)">
             <div class="bar1"></div>
@@ -35,11 +37,10 @@
             <div class="bar3"></div>
           </div>
         </a></li>
-          <!-- <i class="fas fa-bars"></i> -->
         
-        <li class="link item push "> <a href="#">Who Am I?</a> </li>
+        <li class="link item push"> <a href="#about" > Who Am I? </a> </li>
         <li class="link item"><a href="#">My Recent Work</a></li>
-        <li class="link item"><a href="mailto:hello@tonika.tech" target="_blank">
+        <li class="link item"><a href="#contact" target="_blank">
           Say Hello</a></li>
 
       </ul>
@@ -75,22 +76,23 @@
 
   <header>
     <div class="header__bg"></div>
-    <h2>
+    <h2> 
       <img class="profile-svg" src="./img/profile.svg.svg" alt="">
     </h2>
   </header>
 
   <section class="profile-container">
-    <h2>Who Am I?</h2>
+    <h2 id="about">Who Am I?</h2>
     <div class="aboutMe">
       <p>
-        I'm originally from Bulgaria but now based in Miami, Florida. I had previously lived in the UK for almost
-        a decade where I graduated and had most of my work experience. </p>
+        I'm originally from Bulgaria but now based in Miami, Florida. 
+        Before relocating to the US, I lived in the UK for 10 years. 
+        If you're interested in my previous education or work experience please review my Linkedin profile. </p>
 
         <p> Although my professional path has taken many twists and turns — from academic writing and research, to pharmacy
-        employee, to a coordinator role at an online travel business (where I first developed my interest in coding) — I've
-        never stopped trying to create meaningful value for others. </p>
-        <p>And this is where web development comes in, I enjoy challenges, problem solving and ultimately see my work efforts turn into useful applications for individuals
+        employee, to a coordinator role at an online travel business (where I first developed my interest in coding) — I've always strived to 
+        make a difference and create value for others. </p>
+        <p>And this is where my passion for web development comes from - I enjoy challenges, problem solving and ultimately seeing my work efforts turn into useful applications for individuals
         and businesses alike.
       </p>
     </div>
@@ -99,10 +101,21 @@
 
 <section>
   <div class="contact_container">
-    <div> 
+
+     <div class="contactMe">
+    <h3 id="contact">Contact Me<h3>
       <div>
         <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
       </div>
+      <div class="social_icons">
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      </div>
+    
+    
+    <div> 
       <img src="./img/contact.svg.svg" alt="contact me" srcset="" class="contact_svg">
     </div>
   

@@ -242,16 +242,15 @@ header h2 {
 
 .profile-container {
 
-    max-width: 460px;
+    max-width: 70%;
     margin: 0 auto;
     padding-bottom: 3rem;
 
 } 
 .aboutMe {
-  text-align: center;
-  line-height: 1.5rem;
+  text-align: justify;
+  line-height: 1.8;
 }
-
 
 
 .profile-svg {
@@ -266,16 +265,44 @@ header h2 {
 
  .contact_container div{
      text-align: center;
-     /* margin-bottom: -7rem; */
-     z-index: 1001;
-     /* position: relative; */
+     margin-top: -1rem;
+ }
+
+ .contactMe {
+  background-color: #fadadd;
+  line-height: 2.5;
+  border-radius: 300%;
+    z-index: 1001;
+    position: relative;
+    border: 0.5px solid lightgray;
+ }
+
+ h3 {
+   font-size: 2rem;
+   color: #69d5b1;
+   margin: 0;
+
  }
  .email {
    text-decoration: none;
-   font-size: 2em;
-
+   font-size: 1.5rem;
+   color: #69d5b1;
  }
 
+ .email:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #69d5b1;
+  margin: 0 auto;
+}
+
+ .social_icons i {
+   padding: 1rem;
+ }
+
+ 
 
 footer {
     display: flex;
@@ -284,7 +311,7 @@ footer {
     align-items: center;
     padding: 20px;
     background-color: #242739;
-    /* background-color: #e0ebe8; */
+    /* background-color: #6C63FF; */
     color: #fafbfe;
 }
 

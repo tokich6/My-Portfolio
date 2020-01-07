@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="TTonika Valderrama. A Miami based web developer.">
+  <meta name="description" content="Tonika Valderrama. A Miami based web developer.">
   <meta name="keywords" content="web development, web design, coding">
   <meta name="author" content="Tonika Valderrama">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,12 +23,13 @@
 
 <body>
   <!-- NAVBAR -->
-  <div class="row">
+
     <nav class="navbar">
+
       <ul class="main-nav">
 
         <li class="link animated bounceInDown"><a id="my-name" href="#"> Tonika Valderrama
-          </a></li>
+        </a></li>
 
         <li class="link link-toggle"><a href="#"> 
           <div class="bar_container" onclick="myFunction(this)">
@@ -38,24 +39,26 @@
           </div>
         </a></li>
         
-        <li class="link item push"> <a href="#about" > Who Am I? </a> </li>
-        <li class="link item"><a href="#">My Recent Work</a></li>
-        <li class="link item"><a href="#contact">
-          Say Hello</a></li>
+        <li class="link item push animated slideInDown"> <a href="#about" > Who Am I? </a> </li>
+        <li class="link item animated slideInDown"><a href="#">My Recent Work</a></li>
+        <li class="link item animated slideInDown"><a href="#contact"> Say Hello</a></li>
 
       </ul>
     </nav>
-  </div>
+
+
   <!-- COVER -->
+
   <section>
     <div class="container">
       <div class="column column-hero">
         <img class="hero" src="./img/404.svg.svg" alt="" srcset="">
       </div>
       <div class=" column column-text">
-        <div class="animated rollIn">
-          <h1> Hello, I'm Tonika. Nice to meet you.
-            <h3>I'm a Web Developer who thrives on building simple web applications - because Less is More.</h3>
+        <div>
+          <h1 class="animated rollIn"> Hello, I'm Tonika. Nice to meet you.
+            <h3 class="animated slideInRight delay-2s">I'm a <em>Web Developer</em> <br>
+              who thrives on building simple web applications - because Less is More.</h3>
           </h1>
         </div>
       </div>
@@ -99,30 +102,35 @@
   </section>
 
 
+  <main>
+    <div>
+      <h2>My Recent Work</h2>
+      <p>Below are some of the latest projecs I've worked on</p>
+      <p>(COMING SOON)</p>
+    </div>
+  </main>
+
+
 <section>
+
   <div class="contact_container">
 
-     <div class="contactMe">
-    <h3 id="contact">Contact Me<h3>
-      <div>
+    <div class=" column column-text contactMe">
+      <h3 id="contact"> Hey There!<h3>
+        <p> I'd love to hear from you.</p>
         <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
-      </div>
-      <div class="social_icons">
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github"></i>
-        <i class="fab fa-twitter"></i>
-      </div>
-      </div>
-    
-    
-    <div> 
-      <img src="./img/contact.svg.svg" alt="contact me" srcset="" class="contact_svg">
+          <div class="social_icons">
+           <i class="fab fa-linkedin"></i>
+           <i class="fab fa-github"></i>
+           <i class="fab fa-twitter"></i>
+         </div>
     </div>
-  
-    
 
+      <div class="column column-hero">
+        <img class="hero contact_svg" src="./img/contact.svg.svg" alt="contactMeImage" srcset="">
+      </div>   
   </div>
-  
+
 </section>
 
   <footer class="yellow footer-text">
@@ -133,10 +141,8 @@
 
 
   <script src="./portfolio.js"></script>
+  
+
 </body>
 
 </html>
-
-<!-- &lt;Tonika&gt; &lt;Valderrama&sol;&gt; -->
-<!-- &lt;&topf;&oopf;&nopf;&iopf;&kopf;&aopf;&gt; <br>
-        &lt;&vopf;&aopf;&lopf;&dopf;&eopf;&ropf;&ropf;&aopf;&mopf;&aopf;&sol;&gt; -->

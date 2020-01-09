@@ -54,21 +54,25 @@ body {
 }
 
 .link a:hover {
-  color: #69d5b1;
+color: #69d5b1;
 text-decoration-line: overline;
 }
 
 .item, .main-nav {
 flex-direction: column;
 position: relative; 
-
 }
+
 .item {
 display: none;
-align-self: center;
 cursor: pointer;
 }
 
+.dropdown {
+  text-align: center;
+/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+
+}
 .item a {
   color: rgba(0,0,0,0.5);
 }
@@ -101,12 +105,14 @@ cursor: pointer;
   transition: 0.4s;
 }
 
+
 .change .bar1 {
   -moz-transform: rotate(-50deg) translate(-4px, 3px);
-     -o-transform: rotate(-50deg) translate(-4px, 3px);
-     -ms-transform: rotate(-50deg) translate(-4px, 3px);
+  -o-transform: rotate(-50deg) translate(-4px, 3px);
+  -ms-transform: rotate(-50deg) translate(-4px, 3px);
   -webkit-transform: rotate(-50deg) translate(-4px, 3px);
   transform: rotate(-50deg) translate(-4px, 3px);
+  background-color: rgba(0,0,0,0.5);
 }
 
 .change .bar2 {opacity: 0;}
@@ -118,6 +124,8 @@ cursor: pointer;
   -ms-transform: rotate(50deg) translate(-8px, -8px);
   -webkit-transform: rotate(50deg) translate(-8px, -8px);
   transform: rotate(50deg) translate(-8px, -8px);
+  background-color: rgba(0,0,0,0.5);
+
 }
 
 

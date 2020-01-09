@@ -8,10 +8,10 @@
   <meta name="author" content="Tonika Valderrama">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title>Tonika Valderrama | Portfolio</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,27 +24,29 @@
 <body>
   <!-- NAVBAR -->
 
-    <nav class="navbar">
+  <nav class="navbar">
 
-      <ul class="main-nav">
+    <ul class="main-nav">
 
-        <li class="link animated bounceInDown"><a id="my-name" href="#"> Tonika Valderrama
+      <li class="link animated bounceInDown"><a id="my-name" href="./index.html"> Tonika Valderrama
         </a></li>
 
-        <li class="link link-toggle"><a href="#"> 
-          <div class="bar_container" onclick="myFunction(this)">
+      <li class="link link-toggle"><a href="#">
+          <div class="bar_container">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
           </div>
         </a></li>
-        
-        <li class="link item push animated slideInDown"> <a href="#about" > Who Am I? </a> </li>
-        <li class="link item animated slideInDown"><a href="#">My Recent Work</a></li>
-        <li class="link item animated slideInDown"><a href="#contact"> Say Hello</a></li>
 
-      </ul>
-    </nav>
+      <div class="dropdown">
+        <li class="link item push animated slideInDown"> <a href="#about"> Who Am I? </a></li>
+        <li class="link item animated slideInDown"> <a href="#myProjects">My Recent Work</a> </li>
+        <li class="link item animated slideInDown"> <a href="#contact"> Say Hello</a></li>
+      </div>
+
+    </ul>
+  </nav>
 
 
   <!-- COVER -->
@@ -79,7 +81,7 @@
 
   <header>
     <div class="header__bg"></div>
-    <h2> 
+    <h2>
       <img class="profile-svg" src="./img/profile.svg.svg" alt="">
     </h2>
   </header>
@@ -88,14 +90,17 @@
     <h2 id="about">Who Am I?</h2>
     <div class="aboutMe">
       <p>
-        I'm originally from Bulgaria but now based in Miami, Florida. 
-        Before relocating to the US, I lived in the UK for 10 years. 
+        I'm originally from Bulgaria but now based in Miami, Florida.
+        Before relocating to the US, I lived in the UK for 10 years.
         If you're interested in my previous education or work experience please review my Linkedin profile. </p>
 
-        <p> Although my professional path has taken many twists and turns — from academic writing and research, to pharmacy
-        employee, to a coordinator role at an online travel business (where I first developed my interest in coding) — I've always strived to 
+      <p> Although my professional path has taken many twists and turns — from academic writing and research, to
+        pharmacy
+        employee, to a coordinator role at an online travel business (where I first developed my interest in coding) —
+        I've always strived to
         make a difference and create value for others. </p>
-        <p>And this is where my passion for web development comes from - I enjoy challenges, problem solving and ultimately seeing my work efforts turn into useful applications for individuals
+      <p>And this is where my passion for web development comes from - I enjoy challenges, problem solving and
+        ultimately seeing my work efforts turn into useful applications for individuals
         and businesses alike.
       </p>
     </div>
@@ -104,34 +109,34 @@
 
   <main>
     <div>
-      <h2>My Recent Work</h2>
+      <h2 id="myProjects">My Recent Work</h2>
       <p>Below are some of the latest projecs I've worked on</p>
       <p>(COMING SOON)</p>
     </div>
   </main>
 
 
-<section>
+  <section>
 
-  <div class="contact_container">
+    <div class="contact_container">
 
-    <div class=" column column-text contactMe">
-      <h3 id="contact"> Hey There!<h3>
-        <p> I'd love to hear from you.</p>
-        <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
-          <div class="social_icons">
-           <i class="fab fa-linkedin"></i>
-           <i class="fab fa-github"></i>
-           <i class="fab fa-twitter"></i>
-         </div>
-    </div>
+      <div class=" column column-text contactMe">
+        <h3 id="contact"> Hey There!<h3>
+            <p> I'd love to hear from you.</p>
+            <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
+            <div class="social_icons">
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-github"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+      </div>
 
       <div class="column column-hero">
         <img class="hero contact_svg" src="./img/contact.svg.svg" alt="contactMeImage" srcset="">
-      </div>   
-  </div>
+      </div>
+    </div>
 
-</section>
+  </section>
 
   <footer class="yellow footer-text">
     <!-- <img src="./icons/Github.png" alt=""> -->
@@ -141,7 +146,7 @@
 
 
   <script src="./portfolio.js"></script>
-  
+
 
 </body>
 

@@ -43,10 +43,9 @@ body {
 .link {
   padding: 1rem;
   list-style: none;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 900;
 }
-
 
 
 .link a {
@@ -86,8 +85,6 @@ font-size: 1.5rem;
 align-self: flex-end;
 display: initial;
 position: absolute;
-cursor: pointer;
-/* z-index: 999; */
 }   
 
 /* hamburger menu start */
@@ -135,7 +132,7 @@ cursor: pointer;
 
 #my-name{
     color: #242739;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-decoration: underline;
     text-decoration-color: #69d5b1;
 }
@@ -152,13 +149,14 @@ cursor: pointer;
     padding: 2.5rem 2rem 2rem 2rem;
 }
 
+
 .column {
     width: 20rem;
     font-size: 1.2rem;
   }
 .column-hero {
   z-index: 1000;
-  width: 20rem;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -200,6 +198,12 @@ and (max-width: 899px) {
    }
 }
 
+@media only screen and (max-width: 899px) {
+  .contactMe, .contact_svg_container  {
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 900px ) {
   .item {
    font-size: 1.3rem;
@@ -227,6 +231,18 @@ and (max-width: 899px) {
 
 
 /* ABOUT ME */
+
+.highlight {
+    background-image: linear-gradient(0deg,#ddf9f5 50%,transparent 50%);
+    padding-left: .3125rem;
+    padding-right: .3125rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin: 0 0 .5rem;
+    color: #222;
+    font-family: Publico,Georgia,serif!important;
+}
 
 header {
   position: relative;
@@ -272,20 +288,32 @@ header h2 {
     max-width: 70%;
     margin: 0 auto;
     padding-bottom: 3rem;
-
 } 
-.aboutMe {
-  text-align: justify;
-  line-height: 1.8;
-}
 
+.profile-container p {
+  line-height: 2.2;
+  text-align: left;
+
+}
 
 .profile-svg {
   width: 20rem;
 }
 
+.LI-profile-badge {
+    float: left;
+    margin: 0 20px 20px 0;
+    height: 300px;
+}
+
+
     /* PROJECTS SECTION */
-  main {
+
+    main {
+      clear: left;
+    }
+
+  #myProjects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -298,7 +326,7 @@ header h2 {
  .contact_container {
    background-color: #fafbfe;
    padding-bottom: 0;
-   margin-bottom: 0;
+   margin-bottom: 0;;
  }
 
  .contact_container p {
@@ -362,8 +390,7 @@ footer {
 } */
 
 
-/* .yellow{
-    background: #D2F9FE; */
+
     /* background:  #D2F9FE; /* Old browsers */
     /* background: -moz-linear-gradient(top, #FEDE4C 0%, #FAC503 100%); FF3.6+ */
     /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,  #FEDE4C), color-stop(100%, #FAC503)); Chrome,Safari4+ */

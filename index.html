@@ -15,22 +15,22 @@
   <title>Tonika Valderrama | Portfolio</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous" SameSite='None'></script>
   <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
 </head>
 
 <body>
   <!-- NAVBAR -->
 
   <nav class="navbar">
+    
 
     <ul class="main-nav">
-
-      <li class="link animated bounceInDown"><a id="my-name" href="./index.html"> Tonika Valderrama
-        </a></li>
-
+      <a id="my-name" class="link animated bounceInDown" href="./index.html"> Tonika Valderrama
+      </a>
       <li class="link link-toggle"><a href="#">
           <div class="bar_container">
             <div class="bar1"></div>
@@ -58,10 +58,9 @@
       </div>
       <div class=" column column-text">
         <div>
-          <h1 class="animated rollIn"> Hello, I'm Tonika. Nice to meet you.
-            <h3 class="animated slideInRight delay-2s">I'm a <em>Web Developer</em> <br>
-              who thrives on building simple web applications - because Less is More.</h3>
-          </h1>
+          <h1 class="animated rollIn"> Hello, I'm Tonika. Nice to meet you. </h1>
+          <h3 class="animated slideInRight delay-2s">I'm a <em>Web Developer</em> <br>
+            who thrives on building simple web applications - because Less is More.</h3>
         </div>
       </div>
     </div>
@@ -85,31 +84,44 @@
       <img class="profile-svg" src="./img/profile.svg.svg" alt="">
     </h2>
   </header>
-
+  
+  <h2 id="about">
+    <span class="highlight"> Who Am I?</span>
+   </h2>
   <section class="profile-container">
-    <h2 id="about">Who Am I?</h2>
+    
     <div class="aboutMe">
+     
       <p>
         I'm originally from Bulgaria but now based in Miami, Florida.
         Before relocating to the US, I lived in the UK for 10 years.
-        If you're interested in my previous education or work experience please review my Linkedin profile. </p>
-
+        If you're interested in my previous education or work experience please review my Linkedin profile. 
+        </p>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" 
+        data-theme="dark" data-vanity="tonika-valderrama-">
+          <a class="LI-simple-link" href='https://www.linkedin.com/in/tonika-valderrama-?trk=profile-badge' target="_blank">
+          Tonika Valderrama</a></div>
+       </div>
+     
       <p> Although my professional path has taken many twists and turns — from academic writing and research, to
         pharmacy
         employee, to a coordinator role at an online travel business (where I first developed my interest in coding) —
         I've always strived to
         make a difference and create value for others. </p>
+        
       <p>And this is where my passion for web development comes from - I enjoy challenges, problem solving and
         ultimately seeing my work efforts turn into useful applications for individuals
         and businesses alike.
       </p>
-    </div>
+      
+    
   </section>
 
 
   <main>
-    <div>
-      <h2 id="myProjects">My Recent Work</h2>
+    <h2> <span class="highlight" >My Recent Work</span> </h2>
+
+    <div id="myProjects">
       <p>Below are some of the latest projecs I've worked on</p>
       <p>(COMING SOON)</p>
     </div>
@@ -117,7 +129,6 @@
 
 
   <section>
-
     <div class="contact_container">
 
       <div class=" column column-text contactMe">
@@ -131,11 +142,11 @@
             </div>
       </div>
 
-      <div class="column column-hero">
+      <div class="column column-hero contact_svg_container">
         <img class="hero contact_svg" src="./img/contact.svg.svg" alt="contactMeImage" srcset="">
       </div>
-    </div>
 
+    </div>
   </section>
 
   <footer class="yellow footer-text">
@@ -146,7 +157,7 @@
 
 
   <script src="./portfolio.js"></script>
-
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 </body>
 

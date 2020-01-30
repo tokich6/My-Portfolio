@@ -18,7 +18,9 @@
   <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous" SameSite='None'></script>
   <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Sanchez&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -26,25 +28,43 @@
   <!-- NAVBAR -->
 
   <nav class="navbar">
-    
 
     <ul class="main-nav">
-      <a id="my-name" class="link animated bounceInDown" href="./index.html"> Tonika Valderrama
-      </a>
-      <li class="link link-toggle"><a href="#">
-          <div class="bar_container">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-        </a></li>
+      <span id="my-name-span">
+        <a id="my-name" class="link animated bounceInDown" href="./index.html"> Tonika Valderrama
+        </a>
+      </span>
+      <li class="link link-toggle">
+        <div class="bar_container">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </li>
 
       <div class="dropdown">
         <li class="link item push animated slideInDown"> <a href="#about"> Who Am I? </a></li>
-        <li class="link item animated slideInDown"> <a href="#portfolio">My Recent Work</a> </li>
+        <li class="link item animated slideInDown"> <a href="#portfolio">Portfolio</a> </li>
         <li class="link item animated slideInDown"> <a href="#contact"> Say Hello</a></li>
-      </div>
+        <div class="social_icons">
 
+          <a class="item link animated slideInDown" href="https://www.linkedin.com/in/tonika-valderrama-/"
+            target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a class="item link animated slideInDown" href="https://github.com/tokich6" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a class="item link animated slideInDown" href="https://www.linkedin.com/in/tonika-valderrama-/"
+            target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+
+
+      </div>
     </ul>
   </nav>
 
@@ -66,17 +86,19 @@
     </div>
   </section>
 
-  <h4>
-    <div>
-      <q> There are two ways of constructing a software design: One way is to make it so simple that there are
-        obviously
-        no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.
-      </q>
-    </div> <br>
-    <div>
-      <cite>C.A.R. Hoare, 1980 ACM Turing Award Lecture </cite>
+  <!-- <h4> -->
+  <section>
+    <div class="quote-container">
+      <blockquote>
+        <p>There are two ways of constructing a software design: One way is to make it so simple that there are
+          obviously
+          no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.”</p>
+      </blockquote>
+      <cite><span>C.A.R. Hoare</span><br>
+        1980 ACM Turing Award Lecture<br>
+      </cite>
     </div>
-  </h4>
+  </section>
 
   <header>
     <div class="header__bg"></div>
@@ -84,47 +106,98 @@
       <img class="profile-svg" src="./img/profile.svg.svg" alt="">
     </h2>
   </header>
-  
+
+
   <h2 id="about">
     <span class="highlight"> Who Am I?</span>
-   </h2>
+  </h2>
+
   <section class="profile-container">
-    
+
     <div class="aboutMe">
-     
       <p>
-        I'm originally from Bulgaria but now based in Miami, Florida.
-        Before relocating to the US, I lived in the UK for 10 years.
-        If you're interested in my previous education or work experience please review my Linkedin profile. 
-        </p>
-        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" 
+        Apart from being a web developer, there are a few things that you should probably know about me.
+        I'm originally from Bulgaria, currently living in Miami, Florida (Yes, I'm a beach lover!).
+        Before relocating to the US, I lived in the UK for 10 years. As cliché as it may sound, I like travelling,
+        getting acquainted with different cultures, trying new food and just enjoying life...
+        My favorites: morning coffee, cheese, sea breeze to name a few <i class="far fa-grin"></i>
+      </p>
+
+      <p>my photo</p>
+      <img src="" alt="">
+    </div>
+
+    <div>
+      <p>
+        If you would like to take a look at my education or previous work experience please join me on LinkedIn below.
+      </p>
+      <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
         data-theme="dark" data-vanity="tonika-valderrama-">
-          <a class="LI-simple-link" href='https://www.linkedin.com/in/tonika-valderrama-?trk=profile-badge' target="_blank">
-          Tonika Valderrama</a></div>
-       </div>
-     
+        <a class="LI-simple-link" href='https://www.linkedin.com/in/tonika-valderrama-?trk=profile-badge'
+          target="_blank">
+          Tonika Valderrama
+        </a>
+      </div>
+    </div>
+  
+    <div>
       <p> Although my professional path has taken many twists and turns — from academic writing and research, to
         pharmacy
         employee, to a coordinator role at an online travel business (where I first developed my interest in coding) —
-        I've always strived to
-        make a difference and create value for others. </p>
-        
+        I've always strived to make a difference and create value for others.
+      </p>
+
       <p>And this is where my passion for web development comes from - I enjoy challenges, problem solving and
         ultimately seeing my work efforts turn into useful applications for individuals
         and businesses alike.
       </p>
-      
+    </div>
+
+
+     
+  
+
     
+
+
   </section>
+
+  <h2 id="skillsHeading"> Skills </h2>
+  <div class="skills">
+    <img class="skillsImg" src="./img/undraw_static_assets_rpm6.svg" alt="" srcset="">
+    <img class="skillsImg" src="./img/undraw_react_y7wq.svg" alt="" srcset="">
+    <img class="skillsImg" src="./img/bootstrap-icon-logo-svg-vector.svg" alt="" srcset="">
+    <img class="skillsImg" src="./img/Node.js_logo.svg" alt="" srcset="">
+  </div>
 
 
   <main id="portfolio">
-    <h2> <span class="highlight" >My Recent Work</span> </h2>
 
-    <div id="myProjects">
-      <p>Below are some of the latest projecs I've worked on</p>
-      <p>(COMING SOON)</p>
-    </div>
+    <h2> <span class="highlight">Projects</span> </h2>
+
+    <section class="myProject">
+
+      <div class="imageContainer">
+        <img class="projectImg" src="./img/yelpcamp2.png" alt="" srcset="">
+      </div>
+
+
+      <div class="textContainer">
+        <h2>YelpCamp </h2>
+        <button><a href="https://protected-gorge-29045.herokuapp.com/" target="_blank">View Live</a></button>
+        <button><a href="https://protected-gorge-29045.herokuapp.com/" target="_blank">View Source Code</a></button>
+        <p>code-along full stack app completed during a web development course</p>
+      </div>
+
+    </section>
+
+
+    <section class="myProject project2">
+
+      <p>Below are some of the latest projects I've worked on</p>
+
+      <p>(BRAINAPP - COMING SOON)</p>
+    </section>
   </main>
 
 
@@ -132,14 +205,24 @@
     <div class="contact_container">
 
       <div class=" column column-text contactMe">
-        <h3 id="contact"> Hey There!<h3>
-            <p> I'd love to hear from you.</p>
-            <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
-            <div class="social_icons">
-              <i class="fab fa-linkedin"></i>
-              <i class="fab fa-github"></i>
-              <i class="fab fa-twitter"></i>
-            </div>
+
+        <h3 id="contact"> Hey There!</h3>
+        <p> I'd love to hear from you.</p>
+        <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
+
+        <div class="social_icons">
+          <a class="link" href="https://www.linkedin.com/in/tonika-valderrama-/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a class="link" href="https://github.com/tokich6" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a class="link" href="https://www.linkedin.com/in/tonika-valderrama-/" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
       </div>
 
       <div class="column column-hero contact_svg_container">
@@ -150,9 +233,10 @@
   </section>
 
   <footer class="yellow footer-text">
-    <!-- <img src="./icons/Github.png" alt=""> -->
-    <!-- <img src="./icons/Linkedin (1).png" alt=""> -->
+
+    <i class="fas fa-angle-double-up" id="home"></i>
     <p> © 2019 Tonika Valderrama. All rights reserved. </p>
+
   </footer>
 
 

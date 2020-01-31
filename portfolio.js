@@ -12,24 +12,29 @@ document.querySelector('.link-toggle').addEventListener('click', classToggle);
 
 
 
-window.addEventListener('mouseup', function (event) {
+function hideDropDown (event) {
+  event.preventDefault();
+  event.stopPropagation();
   let i;
   for (i = 0; i < links.length; i++) {
     let link = links[i];
-    // if (!event.target.matches('.link-toggle')) {
+    if (!event.target.matches('.link-toggle')) {
       if (link.classList.contains('toggleShow') || menu.classList.contains('navStyle') || bar.classList.contains('change')) {
         link.classList.remove('toggleShow');
         menu.classList.remove('navStyle');
         bar.classList.remove('change');
       }
-    // }
+    }
   }
-});
+};
+window.addEventListener('touchend', hideDropDown);
+window.addEventListener('mouseup', hideDropDown);
 
 
 
 
-// When the user scrolls down 60px from the top of the document, show the button
+
+// When the user scrolls down 60px from the top of the document, show the upArrow
 window.onscroll = function() {
   scrollFunction()
 };

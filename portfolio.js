@@ -13,8 +13,8 @@ document.querySelector('.link-toggle').addEventListener('click', classToggle);
 
 
 function hideDropDown (event) {
-  event.preventDefault();
-  event.stopPropagation();
+  // event.preventDefault();
+  // event.stopPropagation();
   let i;
   for (i = 0; i < links.length; i++) {
     let link = links[i];

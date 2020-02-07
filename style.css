@@ -377,7 +377,7 @@ header h2 {
 }
 
 #skillsHeading {
-  color: #698dd5;
+  color: #69d5b1;
 }
 
 #skillsHeading:after {
@@ -386,7 +386,7 @@ header h2 {
   margin: 0 auto; 
   width: 80%; 
   padding-top: 20px; 
-  border-bottom: 1px solid #698dd5;
+  border-bottom: 2px solid #e0ebe8;
 }
 
 .skills {
@@ -419,15 +419,17 @@ header h2 {
       padding-top: 3rem;
     }
 
-  .myProject {
-    display: flex;
-    flex-wrap: wrap;
+
+   .myProject { 
     justify-content: space-around;
     background-color: #FFDBA5;
     gap: 2rem;
     padding: 1rem;
-
   }
+
+  .myProject h2 {
+      padding: 1rem;
+    }
 
   .project2 {
     background-color: #FFC3A5;
@@ -439,37 +441,39 @@ header h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     
   }
 
   .projectImg {
     width: 100%;
     height: auto;
-    /* display: flex; */
+    opacity: 1;
+    display: block;
+     transition: .5s ease;
+    backface-visibility: hidden;
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   }
-
-
-  .textContainer {
-    padding: 0 1.5rem;
-    width: 80%;
+  
+  .onHoverButtons {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
   }
-  
-  .stack {
-    text-align: center;
+
+  .onHoverButtons button {
+  margin: 10px;
+      
   }
 
-  
-  @media only screen and (min-width: 700px ) {
-     .projectImg {
-       width: 650px;
-     }
-    }
- 
-  
   button {
     background-color: #69d5b1;
     font-size: 1rem;
@@ -485,6 +489,28 @@ header h2 {
     
   }
 
+
+  .imageContainer:hover .projectImg {
+    opacity: 0.3;
+  }
+  
+  .imageContainer:hover .onHoverButtons {
+    opacity: 1;
+  }
+  
+  .stack {
+    text-align: center;
+  }
+
+  
+  @media only screen and (min-width: 700px ) {
+     .projectImg {
+       width: 650px;
+     }
+    }
+ 
+  
+  
 
 /* CONTACT ME */
  
@@ -559,7 +585,7 @@ footer {
 .fa-angle-double-up {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:#698dd5; /* Set a background color */
+  background-color: #69d5b1; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */

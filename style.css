@@ -314,10 +314,20 @@ and (max-width: 899px) {
     font-family: Publico,Georgia,serif!important;
 }
 
+#about {
+  height: 20rem;
+}
+
 header {
   position: relative;
-  height: 20rem;
   overflow: hidden;
+  height: 20rem; 
+}
+
+@media only screen and (max-width: 488px ) {
+  header {
+     height: 20vh;
+  }
 }
 
 .header__bg {
@@ -341,8 +351,10 @@ header {
 
 .portfolio_bg {
   transform: skewY(12deg);
-
+  transform-origin: top right;;
 }
+
+
 
 h2 {
   margin: 0;
@@ -416,10 +428,15 @@ header h2 {
   padding: 0.5rem;
 }
 
+
+
     /* PROJECTS SECTION */
     
     #portfolioHeader {
       text-align: center;
+      margin-top: -5rem;
+      z-index: 900;
+      position: relative;
     }
 
     #portfolioSVG {

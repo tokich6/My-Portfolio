@@ -44,7 +44,7 @@
 
       <div class="dropdown">
         <li class="link item push animated slideInDown"> <a href="#about"> Who Am I? </a></li>
-        <li class="link item animated slideInDown"> <a href="#portfolio">Portfolio</a> </li>
+        <li class="link item animated slideInDown"> <a href="#portfolioHeader">Portfolio</a> </li>
         <li class="link item animated slideInDown"> <a href="#contact"> Say Hello</a></li>
         <div class="social_icons">
 
@@ -86,7 +86,7 @@
     </div>
   </section>
 
-  <!-- <h4> -->
+
   <section>
     <div class="quote-container">
       <blockquote>
@@ -100,7 +100,7 @@
     </div>
   </section>
 
-  <header>
+  <header id="about">
     <div class="header__bg"></div>
     <h2>
       <img class="profile-svg" src="./img/profile.svg.svg" alt="">
@@ -108,7 +108,7 @@
   </header>
 
 
-  <h2 id="about">
+  <h2>
     <span class="highlight"> Who Am I?</span>
   </h2>
 
@@ -167,18 +167,24 @@
     <img class="skillsImg" src="./img/bootstrap-icon-logo-svg-vector.svg" alt="Bootstrap" title="Bootstrap">
     <img class="skillsImg" src="./img/Postgresql.svg" alt="Postgresql" title="PostgreSQL">
     <img class="skillsImg" src="./img/mongodb.svg" alt="mongodb" title="MongoDB">
-
-
   </div>
 
+  
+  <main>
 
-  <main id="portfolio">
-
-    <h2> <span class="highlight">Projects</span> </h2>
+    <header>
+      <div class="header__bg portfolio_bg"></div>
+    </header>
+  
+     
+    <div id="portfolioHeader">
+      <img id="portfolioSVG" src="./img/portfolio.svg" alt=""> 
+    </div>
+    
 
     <section class="myProject">
       <div>
-        <h2>YelpCamp </h2>
+        <h2> <span class="highlight">YelpCamp Project</span></h2>
         <p class="stack"> Tech Stack: JavaScript/Bootstrap/Node/
           Express/MongoDB</p>
       </div>
@@ -202,7 +208,8 @@
 
     <section class="myProject project2">
       <div>
-        <h2> Face Recognition App</h2>
+        <h2> <span class="highlight">Face Recognition App</span></h2>
+
       </div>
       <div class="stack">
         <p>Tech Stack: JavaScript/React/Tachyons/
@@ -252,7 +259,7 @@
       </div>
 
       <div class="column column-hero contact_svg_container">
-        <img class="hero contact_svg" src="./img/contact.svg.svg" alt="contactMeImage" srcset="">
+        <img class="hero contact_svg" src="./img/contact_updated.svg" alt="contactMeImage" srcset="">
       </div>
 
     </div>

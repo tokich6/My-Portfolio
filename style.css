@@ -339,6 +339,11 @@ header {
   transform-origin: top left;
 }
 
+.portfolio_bg {
+  transform: skewY(12deg);
+
+}
+
 h2 {
   margin: 0;
   padding: 2rem 0;
@@ -396,13 +401,12 @@ header h2 {
   padding: 0 2rem;
   width: 90%;
   margin: 0 auto;
-  background-color: #e0ebe8;
+  /* background-color: #e0ebe8; */
 }
 
 @media only screen and (min-width: 900px ) {
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
-
   }
 }
 
@@ -413,6 +417,21 @@ header h2 {
 }
 
     /* PROJECTS SECTION */
+    
+    #portfolioHeader {
+      text-align: center;
+    }
+
+    #portfolioSVG {
+      width: 100%;
+      padding-left: 2rem;
+    }
+
+    @media only screen and (min-width: 1000px ) {
+      #portfolioSVG {
+        width: 60rem;
+      }
+    }
 
     main {
       clear: left;

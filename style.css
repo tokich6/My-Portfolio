@@ -247,14 +247,14 @@ cite span {
   letter-spacing: 1px;
   text-shadow: 0 1px white; 
 }
-@media only screen and (min-width: 695px) {
+/* @media only screen and (min-width: 695px) {
   .profile-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
     column-gap: 30px;
   }
-}
+} */
 @media only screen and (min-width: 768px) {
      .quote-container {
        padding: 3rem 4rem;
@@ -349,12 +349,6 @@ header {
   transform-origin: top left;
 }
 
-.portfolio_bg {
-  transform: skewY(12deg);
-  transform-origin: top right;;
-}
-
-
 
 h2 {
   margin: 0;
@@ -390,7 +384,7 @@ header h2 {
 .LI-profile-badge {
     float: left;
     margin: 0 20px 20px 0;
-    height: 300px;
+    /* height: 300px; */
 }
 
 #skillsHeading {
@@ -434,9 +428,8 @@ header h2 {
     
     #portfolioHeader {
       text-align: center;
-      margin-top: -5rem;
-      z-index: 900;
       position: relative;
+      background-color: #e0ebe8;
     }
 
     #portfolioSVG {
@@ -566,11 +559,6 @@ header h2 {
    padding-left: 0;
  }
 
-  /* .contact_svg {
-   border: 1px solid gray; 
-  } */
-
-
  #contact {
   font-size: 3rem;
   color: #FFE1D2;
@@ -600,7 +588,6 @@ header h2 {
 footer {
     text-align: center;
     padding: 20px;
-    /* padding: 70px 0 50px 0; */
     background-color: #242739;
     color: #fafbfe;
     position: relative;
@@ -614,7 +601,7 @@ footer {
   display: none;
   position: fixed; /* Fixed/sticky position */
   bottom: 10px; /* Place the button at the bottom of the page */
-  right: 0; /* Place the button 30px from the right */
+  right: 1rem; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   
 }

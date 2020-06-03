@@ -1,2 +1,2 @@
 # Portfolio
-Static website - HTML, pure CSS, animate.css library & JS.
+Static website - HTML, CSS3, animate.css library & vanilla JavaScript.

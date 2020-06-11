@@ -1,319 +1,441 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A Miami based web developer." />
+    <meta
+      name="keywords"
+      content="web development, web design, coding, software development"
+    />
+    <meta name="author" content="Tonika Valderrama" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+    <title>Tonika Valderrama | Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Tonika Valderrama. A Miami based web developer.">
-  <meta name="keywords" content="web development, web design, coding">
-  <meta name="author" content="Tonika Valderrama">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-  <link rel="manifest" href="./assets/site.webmanifest">
-  <title>Tonika Valderrama | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2a5d97f99d.js"
+      crossorigin="anonymous"
+      SameSite="None"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Sanchez&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/2a5d97f99d.js" crossorigin="anonymous" SameSite='None'></script>
-  <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:400,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Sanchez&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <nav class="navbar">
-
-    <ul class="main-nav">
-      <span id="my-name-span" class="animated bounceInDown">
-        <a id="my-name" class="link" href="./index.html"> Tonika Valderrama
-        </a>
-      </span>
-      <li class="link link-toggle">
-        <div class="bar_container">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-      </li>
-
-      <div class="dropdown">
-        <li class="link item push animated slideInDown"> <a href="#about"> Who Am I? </a></li>
-        <li class="link item animated slideInDown"> <a href="#portfolioHeader">Portfolio</a> </li>
-        <li class="link item animated slideInDown"> <a href="#contact"> Say Hello</a></li>
-        <div class="social_icons">
-
-          <a class="item link animated slideInDown" href="https://www.linkedin.com/in/tonika-valderrama-/"
-            target="_blank">
-            <i class="fab fa-linkedin"></i>
+  <body>
+    <nav class="navbar">
+      <ul class="main-nav">
+        <span id="my-name-span" class="animated bounceInDown">
+          <a id="my-name" class="link" href="./index.html">
+            Tonika Valderrama
           </a>
+        </span>
+        <li class="link link-toggle">
+          <div class="bar_container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </li>
 
-          <a class="item link animated slideInDown" href="https://github.com/tokich6" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
+        <div class="dropdown">
+          <li class="link item push animated slideInDown">
+            <a href="#about"> Who Am I? </a>
+          </li>
+          <li class="link item animated slideInDown">
+            <a href="#portfolioHeader">Portfolio</a>
+          </li>
+          <li class="link item animated slideInDown">
+            <a href="#contact"> Say Hello</a>
+          </li>
+          <div class="social_icons">
+            <a
+              class="item link animated slideInDown"
+              href="https://www.linkedin.com/in/tonika-valderrama-/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
 
-          <!-- <a class="item link animated slideInDown" href="https://www.linkedin.com/in/tonika-valderrama-/"
-            target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a> -->
+            <a
+              class="item link animated slideInDown"
+              href="https://github.com/tokich6"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
         </div>
+      </ul>
+    </nav>
 
-
-      </div>
-    </ul>
-  </nav>
-
-  <section>
-    <div class="container">
-      <div class="column column-hero">
-        <img class="hero" src="./img/404.svg.svg" alt="" srcset="">
-      </div>
-      <div class=" column column-text">
-        <div>
-          <h1 class="animated rollIn"> Hello, I'm Tonika. Nice to meet you. </h1>
-          <h3 class="animated slideInRight delay-2s">I'm a <em>Web Developer</em> <br>
-            who thrives on building simple web applications - because Less is More.
-            <!-- based in Miami  -->
-          </h3>
+    <section>
+      <div class="container">
+        <div class="column column-hero">
+          <img class="hero" src="./img/404.svg.svg" alt="" srcset="" />
+        </div>
+        <div class="column column-text">
+          <div>
+            <h1 class="animated rollIn">
+              Hello, I'm Tonika. Nice to meet you.
+            </h1>
+            <h3 class="animated slideInRight delay-2s">
+              I'm a <em>Web Developer</em> <br />
+              who thrives on building simple web applications - because Less is
+              More.
+            </h3>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <aside>
+      <div class="quote-container">
+        <blockquote>
+          <p>
+            There are two ways of constructing a software design: One way is to
+            make it so simple that there are obviously no deficiencies, and the
+            other way is to make it so complicated that there are no obvious
+            deficiencies.”
+          </p>
+        </blockquote>
+        <cite
+          ><span>C.A.R. Hoare</span><br />
+          1980 ACM Turing Award Lecture<br />
+        </cite>
+      </div>
+    </aside>
 
-  <aside>
-    <div class="quote-container">
-      <blockquote>
-        <p>There are two ways of constructing a software design: One way is to make it so simple that there are
-          obviously
-          no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.”</p>
-      </blockquote>
-      <cite><span>C.A.R. Hoare</span><br>
-        1980 ACM Turing Award Lecture<br>
-      </cite>
-    </div>
-  </aside>
+    <section>
+      <header id="about">
+        <div class="header__bg"></div>
+        <h2>
+          <img class="profile-svg" src="./img/profile.svg.svg" alt="" />
+        </h2>
+      </header>
 
-  <section>
-    <header id="about">
-      <div class="header__bg"></div>
       <h2>
-        <img class="profile-svg" src="./img/profile.svg.svg" alt="">
+        <span class="highlight"> Who Am I?</span>
       </h2>
-    </header>
-  
-  
-    <h2>
-      <span class="highlight"> Who Am I?</span>
-    </h2>
-  
-    <section class="profile-container">
-  
-      <div class="aboutMe">
+
+      <section class="profile-container">
+        <div class="aboutMe">
+          <p>
+            I'm originally from Bulgaria, currently living in Miami, Florida
+            (Yes, I'm a beach lover!). Before relocating to the US, I lived in
+            the UK for 10 years. As cliché as it may sound, I like travelling,
+            getting acquainted with different cultures, trying new food... My
+            favorites: morning coffee, cheese and sea breeze to name a few
+            <i class="far fa-grin"></i>
+          </p>
+        </div>
+
         <p>
-          Apart from being a web developer, there are a few things that you should probably know about me.
-          I'm originally from Bulgaria, currently living in Miami, Florida (Yes, I'm a beach lover!).
-          Before relocating to the US, I lived in the UK for 10 years. As cliché as it may sound, I like travelling,
-          getting acquainted with different cultures, trying new food...
-          My favorites: morning coffee, cheese and sea breeze to name a few <i class="far fa-grin"></i>
+          If you would like to take a look at my education or previous work
+          experience please join me on Linkedin below.
         </p>
-  
-      </div>
-  
-      
-        <p>
-          If you would like to take a look at my education or previous work experience please join me on Linkedin below.
-        </p>
-        <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" 
-        data-theme="dark" data-vanity="tonika-valderrama">
-          <a class="LI-simple-link" href='https://www.linkedin.com/in/tonika-valderrama?trk=profile-badge'>
+        <div
+          class="LI-profile-badge"
+          data-version="v1"
+          data-size="large"
+          data-locale="en_US"
+          data-type="horizontal"
+          data-theme="dark"
+          data-vanity="tonika-valderrama"
+        >
+          <a
+            class="LI-simple-link"
+            href="https://www.linkedin.com/in/tonika-valderrama?trk=profile-badge"
+          >
             Tonika Valderrama
           </a>
         </div>
-      
-      <div>
-        <p> Although my professional path has taken many twists and turns — from academic writing and research, to
-          pharmacy
-          employee, to a coordinator role at an online travel business (where I first developed my interest in coding) —
-          I've always strived to make a difference and create value for others.
-        </p>  
-      </div>  
-      <div>
-        <p>Where does my passion for web development come from? I enjoy challenges, problem solving and
-          ultimately seeing my work efforts turn into useful applications for individuals
-          and businesses alike.
-        </p>
-      </div>
-    
 
-    </section>
-  
-    <h2 id="skillsHeading"> Technical Skills (Languages, Frameworks and more) </h2>
-    <section class="skills">
-      <img class="skillsImg" src="./img/Unofficial_JavaScript_logo_2.svg" alt="JAVASCRIPT" title="JavaScript">
-      <img class="skillsImg" src="./img/undraw_react_y7wq.svg" alt="REACT" title="React">
-      <img class="skillsImg" src="./img/Node.js_logo.svg" alt="node.js" title="Node.js">
-      <img class="skillsImg" src="./img/HTML5_logo.svg" alt="HTML" title="HTML">
-      <img class="skillsImg" src="./img/CSS.3.svg" alt="CSS" title="CSS">
-      <img class="skillsImg" src="./img/bootstrap-icon-logo-svg-vector.svg" alt="Bootstrap" title="Bootstrap">
-      <img class="skillsImg" src="./img/Postgresql.svg" alt="Postgresql" title="PostgreSQL">
-      <img class="skillsImg" src="./img/mongodb.svg" alt="mongodb" title="MongoDB">
-    </section>
-    
-  </section>
-  
-  <main>
-
-     
-    <div id="portfolioHeader">
-      <img id="portfolioSVG" src="./img/portfolio.svg" alt=""> 
-    </div>
-    
-
-    <section class="myProject">
-      <div>
-        <h2> <span class="highlight">YelpCamp Project</span></h2>
-        <p class="stack"> Tech Stack: JavaScript/Bootstrap/Node/
-          Express/MongoDB</p>
-      </div>
-
-
-      <div class="imageContainer">
-        <img class="projectImg" src="./img/yelpcamp2.png" alt="" srcset="">
-        <div class="onHoverButtons">
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://protected-gorge-29045.herokuapp.com/" target="_blank">View Live</a>
-          </button>
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://github.com/tokich6/YelpCamp" target="_blank">View Source Code</a>
-          </button>
+        <div>
+          <p>
+            Although my professional path has taken many twists and turns — from
+            academic writing and research, to pharmacy employee, to a
+            coordinator role at an online travel business (where I first
+            developed my interest in coding) — I've always strived to make a
+            difference and create value for others.
+          </p>
         </div>
-      </div>
-    </section>
-
-
-    <section class="myProject project2">
-      <div>
-        <h2> <span class="highlight">Face Recognition App</span></h2>
-
-      </div>
-      <div class="stack">
-        <p>Tech Stack: JavaScript/React/Tachyons/
-          Node/Express/PostgreSQL</p>
-    </div>
-
-      <div class="imageContainer">
-        <img class="projectImg" src="./img/face-recognition-clarifai-(2).png" alt="" srcset="">
-        <div class="onHoverButtons">
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://face-recognition-clarifai-toni.herokuapp.com/" target="_blank">View Live</a>
-          </button>
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://github.com/tokich6/smart-brain-frontend" target="_blank">View Source Code</a>
-          </button>
+        <div>
+          <p>
+            Where does my passion for web development come from? I enjoy
+            challenges, problem solving and ultimately seeing my work efforts
+            turn into useful applications for individuals and businesses alike.
+          </p>
         </div>
-      </div>
+      </section>
+
+      <h2 id="skillsHeading">
+        Technical Skills (Languages, Frameworks and more)
+      </h2>
+      <section class="skills">
+        <img
+          class="skillsImg"
+          src="./img/Unofficial_JavaScript_logo_2.svg"
+          alt="JAVASCRIPT"
+          title="JavaScript"
+        />
+        <img
+          class="skillsImg"
+          src="./img/undraw_react_y7wq.svg"
+          alt="REACT"
+          title="React"
+        />
+        <img
+          class="skillsImg"
+          src="./img/Node.js_logo.svg"
+          alt="node.js"
+          title="Node.js"
+        />
+        <img
+          class="skillsImg"
+          src="./img/HTML5_logo.svg"
+          alt="HTML"
+          title="HTML"
+        />
+        <img class="skillsImg" src="./img/CSS.3.svg" alt="CSS" title="CSS" />
+        <img
+          class="skillsImg"
+          src="./img/bootstrap-icon-logo-svg-vector.svg"
+          alt="Bootstrap"
+          title="Bootstrap"
+        />
+        <img
+          class="skillsImg"
+          src="./img/Postgresql.svg"
+          alt="Postgresql"
+          title="PostgreSQL"
+        />
+        <img
+          class="skillsImg"
+          src="./img/mongodb.svg"
+          alt="mongodb"
+          title="MongoDB"
+        />
+        <!-- <img
+          class="skillsImg"
+          src="./img/Python.svg.png"
+          alt="python language"
+          title="Python"
+        /> -->
+      </section>
     </section>
 
-    <section class="myProject">
-      <div>
-        <h2> <span class="highlight">Guerci Company Home/Contact pages</span></h2>
-        <p class="stack"> Built with: HTML5/CSS3/JavaScript</p>
+    <main>
+      <div id="portfolioHeader">
+        <img id="portfolioSVG" src="./img/portfolio.svg" alt="" />
       </div>
-      <div class="imageContainer">
-        <img class="projectImg" src="./img/guerci1.png" alt="" srcset="">
-        <div class="onHoverButtons">
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://maya-hub.github.io/" target="_blank">View Live</a>
-          </button>
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://github.com/maya-hub/maya-hub.github.io" target="_blank">View Source Code</a>
-          </button>
+
+      <section class="myProject">
+        <div>
+          <h2><span class="highlight">YelpCamp Project</span></h2>
+          <p class="stack">
+            Tech Stack: JavaScript/Bootstrap/Node/ Express/MongoDB
+          </p>
         </div>
-      </div>
-    </section>
 
-    <section class="myProject project2">
-      <div>
-        <h2> <span class="highlight">Portfolio Website</span></h2>
-
-      </div>
-      <div class="stack">
-        <p>Built with: HTML5/CSS3/JavaScript</p>
-    </div>
-      <div class="imageContainer">
-        <img class="projectImg" src="./img/my-portfolio-page.png" alt="" srcset="">
-        <div class="onHoverButtons">
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https:tonika.tech" target="_blank">View Live</a>
-          </button>
-          <button>
-            <i class="fas fa-external-link-alt"></i>
-            <a href="https://github.com/tokich6/My-Portfolio" target="_blank">View Source Code</a>
-          </button>
+        <div class="imageContainer">
+          <img class="projectImg" src="./img/yelpcamp2.png" alt="" srcset="" />
+          <div class="onHoverButtons">
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a
+                href="https://protected-gorge-29045.herokuapp.com/"
+                target="_blank"
+                >View Live</a
+              >
+            </button>
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a href="https://github.com/tokich6/YelpCamp" target="_blank"
+                >View Source Code</a
+              >
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section class="myProject project2">
+        <div>
+          <h2><span class="highlight">Face Recognition App</span></h2>
+        </div>
+        <div class="stack">
+          <p>Tech Stack: JavaScript/React/Tachyons/ Node/Express/PostgreSQL</p>
+        </div>
 
+        <div class="imageContainer">
+          <img
+            class="projectImg"
+            src="./img/face-recognition-clarifai-(2).png"
+            alt=""
+            srcset=""
+          />
+          <div class="onHoverButtons">
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a
+                href="https://face-recognition-clarifai-toni.herokuapp.com/"
+                target="_blank"
+                >View Live</a
+              >
+            </button>
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a
+                href="https://github.com/tokich6/smart-brain-frontend"
+                target="_blank"
+                >View Source Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
 
-  </main>
+      <section class="myProject">
+        <div>
+          <h2>
+            <span class="highlight">Guerci Company Home/Contact pages</span>
+          </h2>
+          <p class="stack">Built with: HTML5/CSS3/JavaScript</p>
+        </div>
+        <div class="imageContainer">
+          <img class="projectImg" src="./img/guerci1.png" alt="" srcset="" />
+          <div class="onHoverButtons">
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a href="https://maya-hub.github.io/" target="_blank"
+                >View Live</a
+              >
+            </button>
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a
+                href="https://github.com/maya-hub/maya-hub.github.io"
+                target="_blank"
+                >View Source Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
 
+      <section class="myProject project2">
+        <div>
+          <h2><span class="highlight">Portfolio Website</span></h2>
+        </div>
+        <div class="stack">
+          <p>Built with: HTML5/CSS3/JavaScript</p>
+        </div>
+        <div class="imageContainer">
+          <img
+            class="projectImg"
+            src="./img/my-portfolio-page.png"
+            alt=""
+            srcset=""
+          />
+          <div class="onHoverButtons">
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a href="https:tonika.tech" target="_blank">View Live</a>
+            </button>
+            <button>
+              <i class="fas fa-external-link-alt"></i>
+              <a href="https://github.com/tokich6/My-Portfolio" target="_blank"
+                >View Source Code</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <section>
-    <div class="contact_container">
+    <section>
+      <div class="contact_container">
+        <div class="column column-text contactMe">
+          <h3 id="contact">Hey There!</h3>
+          <p>I'd love to hear from you.</p>
+          <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
 
-      <div class=" column column-text contactMe">
+          <div class="social_icons">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/tonika-valderrama-/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
 
-        <h3 id="contact"> Hey There!</h3>
-        <p> I'd love to hear from you.</p>
-        <a href="mailto:hello@tonika.tech" class="email">hello@tonika.tech</a>
+            <a class="link" href="https://github.com/tokich6" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
 
-        <div class="social_icons">
-          <a class="link" href="https://www.linkedin.com/in/tonika-valderrama-/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-
-          <a class="link" href="https://github.com/tokich6" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-
-          <!-- <a class="link" href="https://www.linkedin.com/in/tonika-valderrama-/" target="_blank">
+            <!-- <a class="link" href="https://www.linkedin.com/in/tonika-valderrama-/" target="_blank">
             <i class="fab fa-twitter"></i>
           </a> -->
+          </div>
+        </div>
+
+        <div class="column column-hero contact_svg_container">
+          <img
+            class="hero contact_svg"
+            src="./img/contact_updated.svg"
+            alt="contactMeImage"
+            srcset=""
+          />
         </div>
       </div>
+    </section>
 
-      <div class="column column-hero contact_svg_container">
-        <img class="hero contact_svg" src="./img/contact_updated.svg" alt="contactMeImage" srcset="">
-      </div>
+    <footer class="yellow footer-text">
+      <i class="fas fa-angle-double-up" id="home"></i>
+      <p>
+        © 2019 Tonika Valderrama. Built by Tonika herself. All rights reserved.
+      </p>
+    </footer>
 
-    </div>
-  </section>
-
-  <footer class="yellow footer-text">
-
-    <i class="fas fa-angle-double-up" id="home"></i>
-    <p>© 2019 Tonika Valderrama. Built by Tonika herself. All rights reserved. </p>
-  
-
-  </footer>
-
-
-  <script src="./portfolio.js"></script>
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-</body>
-
+    <script src="./portfolio.js"></script>
+    <script
+      type="text/javascript"
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,54 @@
+ /* BLOCKQUOTE */
+ .quote-container {
+    padding: 1rem 2rem;
+  }
+
+   blockquote {
+    color: gray;
+    font-family: Georgia, serif;
+    font-size: inherit;
+    font-style: italic;
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px white;
+    z-index: 600;
+}
+
+blockquote p {
+  color: #75808a; 
+  line-height: 1.4 !important;
+}
+
+blockquote p:first-child:before {
+  content: '\201C';
+  color: #81bedb;
+  font-size: 7.5em;
+  font-weight: 700;
+  opacity: .3;
+  position: absolute;
+  top: -.4em;
+  left: -.2em;    
+  text-shadow: none;
+  z-index: -300;
+}
+
+cite {
+  color: gray;
+  display: block;
+  font-size: .8em; 
+}
+
+cite span {
+  color: #5e5e5e;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 1px white; 
+}
+
+@media only screen and (min-width: 768px) {
+    .quote-container {
+       padding: 3rem 4rem;
+     } 
+}

@@ -4,7 +4,7 @@
   }
 
    blockquote {
-    color: gray;
+    color: #6b757e;
     font-family: Georgia, serif;
     font-size: inherit;
     font-style: italic;
@@ -16,7 +16,8 @@
 }
 
 blockquote p {
-  color: #75808a; 
+  /* color: #75808a;  */
+  color: #6b757e;
   line-height: 1.4 !important;
 }
 

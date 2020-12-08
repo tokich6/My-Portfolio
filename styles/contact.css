@@ -16,8 +16,9 @@
   }
  
   #contact {
-   font-size: 3rem;
-   color: #FFE1D2;
+   font-size: 2rem;
+   /* color: #FFDBA5; */
+   color: #FFC3A5;
    margin: 0;
    text-transform: uppercase;
   } 

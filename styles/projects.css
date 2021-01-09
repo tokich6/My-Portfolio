@@ -76,19 +76,25 @@
     button {
       background-color: #69d5b1;
       font-size: 1rem;
-      padding: 6px;
-      border: 1px solid black;
+      padding: 0.8rem;
+      border: 1px solid #69d5b1;
       border-top-left-radius: 10px;
       border-bottom-right-radius: 10px;
-  
+      transition: 0.4s;
     }
   
     button a {
       text-decoration: none;
       color: black;
-      
+
     }
-  
+    
+    button:hover {
+      color: #FFC3A5;
+      background-color: #698dd5;
+      border: none;
+      cursor: pointer;
+    }
   
     .imageContainer:hover .projectImg {
       opacity: 0.3;

@@ -1,15 +1,17 @@
 const menu = document.querySelector(".main-nav"); //ul
 const links = document.querySelectorAll(".item"); //3 li links
-const bar = document.querySelector(".bar_container"); //the bar
-const upArrow = document.getElementById("home"); //back to top arrow
+const bar = document.querySelector(".bar_container"); 
+const upArrow = document.querySelector("#home"); //back to top arrow
 
 function classToggle() {
   links.forEach((link) => link.classList.toggle("toggleShow"));
   menu.classList.toggle("navStyle");
   bar.classList.toggle("change");
+  console.log('barCross clicked');
 }
 
 bar.addEventListener("click", classToggle);
+
 
 function hideDropDown() {
   links.forEach((link) => {
@@ -26,7 +28,7 @@ function hideDropDown() {
 document.addEventListener("mouseup", hideDropDown);
 
 // When the user scrolls down 60px from the top of the document, show the upArrow
-function scrollFunction() {
+function showUpArrow() {
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     upArrow.style.display = "block";
   } else {
@@ -34,13 +36,14 @@ function scrollFunction() {
   }
 }
 
-onscroll = () => scrollFunction();
+// document.addEventListener("onscroll", showUpArrow);
+onscroll = () => showUpArrow();
 
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {
+function scrollToTop() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-upArrow.addEventListener("click", topFunction);
+upArrow.addEventListener("click", scrollToTop);

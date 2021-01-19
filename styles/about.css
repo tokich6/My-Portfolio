@@ -81,7 +81,7 @@ header h2 {
 .LI-profile-badge {
     float: left;
     margin: 0 20px 20px 0;
-    /* height: 300px; */
+    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 #skillsHeading {

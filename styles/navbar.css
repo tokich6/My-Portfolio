@@ -31,8 +31,7 @@
  }
  
  .link a:hover {
- color: #FFC3A5;
- text-decoration-line: overline;
+   color: rgba(0,0,0,0.5);
  }
  
  .item, .main-nav {
@@ -51,7 +50,7 @@
    margin: 2px auto;
  }
  .item a {
-   color: rgba(0,0,0,0.5);
+   color: rgba(0,0,0,0.8);
  }
  
  .toggleShow {
@@ -75,6 +74,8 @@
    border-radius: 150%;
    background-color:  #69d5b1;
    padding: 0.8rem;
+   box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+   transition: 0.4s;
  }
  
  .social_icons .fab:hover {

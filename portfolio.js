@@ -3,29 +3,17 @@ const links = document.querySelectorAll(".item"); //3 li links
 const bar = document.querySelector(".bar_container"); 
 const upArrow = document.querySelector("#home"); //back to top arrow
 
-function classToggle() {
+function toggleDropdown() {
   links.forEach((link) => link.classList.toggle("toggleShow"));
   menu.classList.toggle("navStyle");
   bar.classList.toggle("change");
-  console.log('barCross clicked');
 }
 
-bar.addEventListener("click", classToggle);
+bar.addEventListener("click", toggleDropdown);
 
-
-function hideDropDown() {
-  links.forEach((link) => {
-    if (link.classList.contains("toggleShow")) {
-      link.classList.remove("toggleShow");
-    }
-  });
-  if (menu.classList.contains("navStyle") || bar.classList.contains("change")) {
-    menu.classList.remove("navStyle");
-    bar.classList.remove("change");
-  }
+for (let link of links) {
+  link.addEventListener('click', toggleDropdown);
 }
-
-document.addEventListener("mouseup", hideDropDown);
 
 // When the user scrolls down 60px from the top of the document, show the upArrow
 function showUpArrow() {

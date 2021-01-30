@@ -84,6 +84,10 @@ header h2 {
     box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+.LI-badge-container.horizontal.dark .LI-view-profile {
+  background-color:  #4f9f84 !important;
+}
+
 #skillsHeading {
   /* color: #69d5b1; */
   color: #4f9f84;

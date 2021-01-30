@@ -27,13 +27,18 @@
     /* color: #69d5b1; */
     color: #4f9f84;
   }
+  .email:hover {
+    color: #69d5b1;
+    transition: 0.4s;
+  }
  
   .email:after {
    content: "";
    display: block;
    width: 180px;
    height: 3px;
-   background: #69d5b1;
+   /* background: #69d5b1; */
+   background-color: #4f9f84;
    margin: 0 auto;
  }
  

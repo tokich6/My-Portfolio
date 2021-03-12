@@ -65,7 +65,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -141,7 +141,7 @@
             <h1 class="animated rollIn">
               Hello, I'm Tonika. Nice to meet you.
             </h1>
-            <h3 class="animated slideInRight delay-2s">
+            <h3 class="animated flipInX delay-2s">
               I'm a <em>Software Developer</em> <br />
               who thrives on building simple web applications - because Less is
               More.
@@ -244,54 +244,63 @@
           src="./img/skills/Unofficial_JavaScript_logo_2.svg"
           alt="JAVASCRIPT"
           title="JavaScript"
+          data-aos="fade-right"
         />
         <img
           class="skillsImg"
           src="./img/skills/undraw_react_y7wq.svg"
           alt="REACT"
           title="React"
+          data-aos="fade-right"
         />
         <img
           class="skillsImg"
           src="./img/skills/Node.js_logo.svg"
           alt="node.js"
           title="Node.js"
+          data-aos="fade-right"
         />
         <img
           class="skillsImg"
           src="./img/skills/express-js-seeklogo.com.svg"
           alt="express.js framework"
           title="Express framework for Node.js"
+          data-aos="fade-left"
         />
         <img
           class="skillsImg"
           src="./img/skills/HTML5_logo.svg"
           alt="HTML"
           title="HTML"
+          data-aos="fade-left"
         />
         <img
           class="skillsImg"
           src="./img/skills/CSS.3.svg"
           alt="CSS"
           title="CSS"
+          data-aos="fade-left"
         />
         <img
           class="skillsImg"
           src="./img/skills/bootstrap-icon-logo-svg-vector.svg"
           alt="Bootstrap"
           title="Bootstrap"
+          data-aos="fade-right"
         />
         <img
           class="skillsImg"
           src="./img/skills/mongodb.svg"
           alt="mongodb"
           title="MongoDB"
+          data-aos="fade-right"
         />
         <img
           class="skillsImg"
           src="./img/skills/Postgresql.svg"
           alt="Postgresql"
           title="PostgreSQL"
+          data-aos="fade-right"
         />
 
         <img
@@ -299,12 +308,14 @@
           src="./img/skills/python-seeklogo.com.svg"
           alt="python"
           title="Python"
+          data-aos="fade-left"
         />
         <img
           class="skillsImg"
           src="./img/skills/flask-seeklogo.com.svg"
           alt="flask framework"
           title="Flask Framework"
+          data-aos="fade-left"
         />
       </section>
     </section>
@@ -318,16 +329,15 @@
         />
       </div>
 
-      <section class="myProject pale-orange-background">
-        <div>
+      <section class="myProject">
+        <span data-aos="fade-left">
           <h2>
             <span class="highlight">Rock Paper Scissors Game</span>
           </h2>
-          <div class="stack">
+          <div class="stack" >
             <p>Built with: JavaScript/ React.js/ CSS3</p>
             <p>(front-end personal project)</p>
           </div>
-        </div>
         <div class="imageContainer">
           <img
             class="projectImg"
@@ -356,17 +366,18 @@
             </button>
           </div>
         </div>
+
+        </span>
+          
       </section>
 
       <section class="myProject">
-        <div>
+        <span data-aos="fade-right">
           <h2><span class="highlight">YelpCamp Project</span></h2>
-
-          <div class="stack">
+          <div class="stack" >
             <p>Tech Stack: JavaScript /Bootstrap /Node / Express/ MongoDB</p>
             <p>(full-stack code-along project)</p>
           </div>
-        </div>
         <div class="imageContainer">
           <img
             class="projectImg"
@@ -395,19 +406,19 @@
             </button>
           </div>
         </div>
+        </span>
+         
       </section>
 
-      <section class="myProject pale-orange-background">
-        <div>
+      <section class="myProject">
+        <span data-aos="fade-left">
           <h2>
             <span class="highlight">Home Away hotel booking web app</span>
           </h2>
-        </div>
-        <div class="stack">
+        <div class="stack" >
           <p>Tech Stack: Python/ Flask/ JavaScript/ TailwindCSS/ PostgreSQL</p>
           <p>(full-stack personal project)</p>
         </div>
-
         <div class="imageContainer">
           <img
             class="projectImg"
@@ -436,19 +447,18 @@
             </button>
           </div>
         </div>
+        </span>
       </section>
 
       <section class="myProject">
-        <div>
+        <span data-aos="fade-right">
           <h2><span class="highlight">Face Recognition App</span></h2>
-        </div>
-        <div class="stack">
+        <div class="stack" >
           <p>
             Tech Stack: JavaScript/ React/ Tachyons/ Node/ Express/ PostgreSQL
           </p>
           <p>(full stack code-along project)</p>
         </div>
-
         <div class="imageContainer">
           <img
             class="projectImg"
@@ -477,14 +487,15 @@
             </button>
           </div>
         </div>
+        </span>
       </section>
 
-      <section class="myProject pale-orange-background">
-        <div>
+      <section class="myProject">
+        <span data-aos="fade-left">
           <h2>
             <span class="highlight">Mitchell Mitchell Films</span>
           </h2>
-          <div class="stack">
+          <div class="stack" >
             <p>Website Modifications, Updates and Improvements</p>
             <p>(Wordpress site - client project)</p>
           </div>
@@ -508,13 +519,13 @@
             </button>
           </div>
         </div>
+        </span>
       </section>
 
       <section class="myProject">
-        <div>
+        <span data-aos="fade-right">
           <h2><span class="highlight">Portfolio Website</span></h2>
-        </div>
-        <div class="stack">
+        <div class="stack" >
           <p>Built with: HTML5/ CSS3/ JavaScript</p>
           <p>(front-end personal project)</p>
         </div>
@@ -541,7 +552,9 @@
             </button>
           </div>
         </div>
+        </span>
       </section>
+      
     </main>
 
     <section>
@@ -603,6 +616,13 @@
     </footer>
 
     <script src="./portfolio.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
     <script
       type="text/javascript"
       src="https://platform.linkedin.com/badges/js/profile.js"

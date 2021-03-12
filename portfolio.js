@@ -1,6 +1,7 @@
+
 const menu = document.querySelector(".main-nav"); //ul
 const links = document.querySelectorAll(".item"); //3 li links
-const bar = document.querySelector(".bar_container"); 
+const bar = document.querySelector(".bar_container");
 const upArrow = document.querySelector("#home"); //back to top arrow
 
 function toggleDropdown() {

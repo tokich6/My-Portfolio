@@ -62,7 +62,6 @@ header h2 {
 }
 
 .profile-container {
-
     max-width: 80%;
     margin: 0 auto;
     padding-bottom: 3rem;
@@ -89,7 +88,6 @@ header h2 {
 }
 
 #skillsHeading {
-  /* color: #69d5b1; */
   color: #4f9f84;
   padding-left: 1rem;
   padding-right: 1rem;

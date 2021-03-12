@@ -1,6 +1,5 @@
 /* CONTACT ME */
  
-
 .contact_container {
     background-color: #fafbfe;
     padding-bottom: 0;
@@ -24,7 +23,6 @@
   .email {
     text-decoration: none;
     font-size: 1.5rem;
-    /* color: #69d5b1; */
     color: #4f9f84;
   }
   .email:hover {
@@ -37,7 +35,6 @@
    display: block;
    width: 180px;
    height: 3px;
-   /* background: #69d5b1; */
    background-color: #4f9f84;
    margin: 0 auto;
  }

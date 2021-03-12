@@ -1,124 +1,122 @@
+/* PROJECTS SECTION */
 
-    /* PROJECTS SECTION */
-    
-    #portfolio {
-        text-align: center;
-        position: relative;
-        background-color: #e0ebe8;
-      }
-  
-      #portfolioSVG {
-        width: 100%;
-        padding-left: 2rem;
-      }
-  
-      @media only screen and (min-width: 1000px ) {
-        #portfolioSVG {
-          width: 60rem;
-        }
-      }
-  
-  
-     .myProject { 
-      justify-content: space-around;
-      background-color: #FFDBA5;
-      gap: 2rem;
-      padding: 1rem;
-    }
-  
-    .myProject h2 {
-        padding: 1rem;
-      }
-  
-    .pale-orange-background {
-      background-color: #FFC3A5;
-    }
-  
-    .imageContainer {
-      padding: 1.3rem;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      
-    }
-  
-    .projectImg {
-      width: 100%;
-      height: auto;
-      opacity: 1;
-      display: block;
-       transition: .5s ease;
-      backface-visibility: hidden;
-      -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-      -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-      -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-      box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-      border-radius: 15px;
-    }
-    
-    .onHoverButtons {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    
-    }
-  
-    .onHoverButtons button {
-    margin: 10px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    }
-  
-    button {
-      background-color: #69d5b1;
-      font-size: 1rem;
-      padding: 0.8rem;
-      border: 1px solid #69d5b1;
-      border-top-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-      transition: 0.4s;
-    }
-  
-    button a {
-      text-decoration: none;
-      color: black;
+#portfolio {
+  text-align: center;
+  position: relative;
+  background-color: #e0ebe8;
+}
 
-    }
-    
-    button:hover {
-      color: #FFC3A5;
-      background-color: #698dd5;
-      border: none;
-      cursor: pointer;
-    }
-  
-    .imageContainer:hover .projectImg {
-      opacity: 0.3;
-    }
-    
-    .imageContainer:hover .onHoverButtons {
-      opacity: 1;
-    }
-    
-    .stack {
-      text-align: center;
-    }
-    .stack p:first-child {
-      font-weight: bolder;
-      font-size: 1.2em;
-    }
-  
-    
-    @media only screen and (min-width: 700px ) {
-       .projectImg {
-         width: 650px;
-       }
-      }
-   
-    
+#portfolioSVG {
+  width: 100%;
+  padding-left: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  #portfolioSVG {
+    width: 60rem;
+  }
+}
+
+.myProject {
+  justify-content: space-around;
+  background-color: #ffdba5;
+  padding: 1rem;
+  display: grid;
+}
+
+.myProject h2 {
+  padding: 1rem;
+}
+
+.pale-orange-background {
+  background-color: #ffc3a5;
+}
+
+.imageContainer {
+  padding: 1.3rem;
+  position: relative;
+}
+
+.projectImg {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  border-radius: 15px;
+}
+
+.onHoverButtons {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+  transform: translate(-50%, -10%);
+  transition: transform 0.25s;
+  text-align: center;
+}
+
+.onHoverButtons button {
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+button {
+  background-color: #69d5b1;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #69d5b1;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.4s;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  color: #ffc3a5;
+  background-color: #698dd5;
+  border: none;
+  cursor: pointer;
+}
+
+.imageContainer:hover .projectImg {
+  opacity: 0.3;
+}
+
+.imageContainer:hover .onHoverButtons {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.stack {
+  text-align: center;
+}
+.stack p:first-child {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 700px) {
+  .projectImg {
+    width: 650px;
+  }
+}

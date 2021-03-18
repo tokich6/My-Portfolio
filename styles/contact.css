@@ -22,21 +22,39 @@
 }
 .email {
   text-decoration: none;
-  font-size: 1.5rem;
-  color: #4f9f84;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  display: flex;
+  width: 10em;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #69d5b1;
+  padding: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  transition: 0.4s;
+  border-radius: 1rem;
 }
 .email:hover {
-  color: #69d5b1;
+  color: #ffc3a5;
+  background-color: #698dd5;
   transition: 0.4s;
 }
 
-.email:after {
+.email-container:after {
   content: "";
   display: block;
-  width: 180px;
-  height: 3px;
-  background-color: #4f9f84;
   margin: 0 auto;
+  width: 60%;
+  padding-bottom: 4rem;
+  border-bottom: 2px solid #e0ebe8;
 }
 
 @media only screen and (max-width: 899px) {

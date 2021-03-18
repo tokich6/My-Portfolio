@@ -13,9 +13,10 @@
 }
 
 .navStyle {
-  transition: background-color 0.7s ease;
   background-color: #fafbfe;
-  opacity: 0.9;
+  transition: background-color 0.7s ease;
+  opacity: 1;
+  box-shadow: 0 50px 100px -20px rgba(50,50,93,0.25),0 30px 60px -30px rgba(0,0,0,0.3);
 }
 
 .link {
@@ -41,7 +42,6 @@
 
 .item {
   display: none;
-  /* cursor: pointer; */
 }
 
 .dropdown {

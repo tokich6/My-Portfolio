@@ -25,9 +25,6 @@
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 600;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
   display: flex;
   width: 10em;
   height: 2em;

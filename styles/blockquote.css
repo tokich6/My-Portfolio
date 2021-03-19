@@ -1,6 +1,6 @@
 /* BLOCKQUOTE */
 .quote-container {
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
 }
 
 blockquote {
@@ -50,6 +50,6 @@ cite span {
 
 @media only screen and (min-width: 768px) {
   .quote-container {
-    padding: 3rem 4rem;
+    padding: 5rem 4rem;
   }
 }

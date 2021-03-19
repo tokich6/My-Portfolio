@@ -1,90 +1,69 @@
-
 /* ABOUT ME */
-
-.highlight {
-    box-shadow: inset 0 -0.8rem #69d5b1, inset 0 0 #69d5b1;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 1.1;
-    color: #222;
-    font-family: Publico,Georgia,serif!important;
-}
-
-#about {
-  height: 20rem;
-}
-
 header {
   position: relative;
   overflow: hidden;
-  height: 20rem; 
 }
 
-@media only screen and (max-width: 488px ) {
-  header {
-     height: 20vh;
-  }
+#about {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header__bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+canvas {
   width: 100%;
   height: 100%;
-  background:  #69d5b1;
-  background: -moz-linear-gradient(top, #698dd5 0%, #69d5b1 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,  #69d5b1), color-stop(100%, #698dd5));
-  background: -webkit-linear-gradient(top, #698dd5, #69d5b1);
-  background: -o-linear-gradient (top, #698dd5, #69d5b1);
-  background: -ms-linear-gradient(top, #698dd5 0%, #69d5b1 100%); 
-  background: linear-gradient(top,#698dd5 0%, #69d5b1 100%); 
-  transform: skewY(-12deg);
-  transform-origin: top left;
+  opacity: 1;
+  transition: opacity 1.8s ease-in 50ms;
 }
 
+.header-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
+  transform-origin: top left;
+  transform: skewY(-10deg);
+}
 
 h2 {
   margin: 0;
   padding: 2rem 0;
   font-size: 1.5rem;
-  color: rgba(0,0,0,0.5);
-  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
-header h2 {
-  position: relative;
-  color: white;
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.4rem;
 }
 
-.profile-container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding-bottom: 3rem;
-} 
-
 .profile-container p {
-  line-height: 2.2;
-  text-align: left;
-
+   line-height: 2.2; 
+   font-size: large;
 }
 
 .profile-svg {
-  width: 20rem;
+  z-index: 1;
+}
+.profile-svg img {
+  width: 25rem;
 }
 
-.LI-profile-badge {
-    float: left;
-    margin: 0 20px 20px 0;
-    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
-
-.LI-badge-container.horizontal.dark .LI-view-profile {
-  background-color:  #4f9f84 !important;
+.LI-badge-container.horizontal.dark {
+  width: auto !important;
+  color: #4f9f84 !important;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px !important;
+  margin-top: -6rem !important;
 }
 
 #skillsHeading {
@@ -95,11 +74,11 @@ header h2 {
 }
 
 #skillsHeading:after {
-  content: ""; 
+  content: "";
   display: block;
-  margin: 0 auto; 
-  width: 80%; 
-  padding-top: 20px; 
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 20px;
   border-bottom: 2px solid #e0ebe8;
 }
 
@@ -112,16 +91,35 @@ header h2 {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 900px ) {
-  .skills {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
 .skillsImg {
-  width: 100%; 
+  width: 100%;
   height: 20vh;
   padding: 0.5rem;
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 558px) {
+  .profile-svg img {
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .profile-container {
+    max-width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .LI-badge-container.horizontal.dark {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .profile-svg img {
+    width: 30rem;
+  }
+}

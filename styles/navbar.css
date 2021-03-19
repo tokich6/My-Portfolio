@@ -31,7 +31,9 @@
 }
 
 .link a:hover {
-  color: rgba(0, 0, 0, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
+  color: #698dd5;
+  transition: 0.4s;
 }
 
 .item,

@@ -28,6 +28,16 @@
   padding: 1rem;
 }
 
+.highlight {
+  box-shadow: inset 0 -0.8rem #69d5b1, inset 0 0 #69d5b1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #222;
+  font-family: Publico, Georgia, serif !important;
+}
+
 .myProject:nth-child(even) {
   background-color: #ffc3a5;
 }

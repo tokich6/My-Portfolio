@@ -48,14 +48,14 @@ footer {
   display: none;
   position: fixed;
   bottom: 10px;
-  right: 1rem;
+  right: 15px;
   z-index: 1001;
-  transition: 0.4;
 }
 
 #home:hover {
   color: #ffc3a5;
   background-color: #698dd5;
+  transition: 0.4;
 }
 
 .fa-angle-double-up {

@@ -85,6 +85,7 @@
 }
 
 button {
+  color: rgba(0, 0, 0, 0.5);
   background-color: #69d5b1;
   font-size: 1rem;
   padding: 0.8rem;
@@ -96,12 +97,13 @@ button {
 
 button a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 button:hover {
   color: #ffc3a5;
   background-color: #698dd5;
+  transition: 0.4s;
   border: none;
   cursor: pointer;
 }

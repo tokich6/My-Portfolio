@@ -59,12 +59,12 @@ h2 {
   width: 25rem;
 }
 
-.LI-badge-container.horizontal.dark {
+/* .LI-badge-container.horizontal.dark {
   width: auto !important;
   color: #4f9f84 !important;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px !important;
   margin-top: -5rem !important;
-}
+} */
 
 #skillsHeading {
   color: #4f9f84;
@@ -108,8 +108,14 @@ h2 {
     max-width: 80%;
     grid-template-columns: repeat(1, 1fr);
   }
-  .LI-badge-container.horizontal.dark {
+  /* .LI-badge-container.horizontal.dark {
     margin-top: 0 !important;
+  } */
+  
+}
+@media only screen and (min-width: 870px) {
+  .LI-profile-badge {
+    margin-top: -3rem;
   }
 }
 

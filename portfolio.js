@@ -1,4 +1,3 @@
-
 const menu = document.querySelector(".main-nav"); //ul
 const links = document.querySelectorAll(".item"); //3 li links
 const bar = document.querySelector(".bar_container");

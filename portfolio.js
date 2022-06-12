@@ -35,3 +35,5 @@ function scrollToTop() {
 }
 
 upArrow.addEventListener("click", scrollToTop);
+
+document.getElementById("current-year").innerHTML = new Date().getFullYear();

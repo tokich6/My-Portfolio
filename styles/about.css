@@ -98,6 +98,18 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.activity-img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  border-radius: 16px;
+}
+
 @media only screen and (max-width: 558px) {
   .profile-svg img {
     width: 20rem;
@@ -108,14 +120,17 @@ h2 {
     max-width: 80%;
     grid-template-columns: repeat(1, 1fr);
   }
-  /* .LI-badge-container.horizontal.dark {
-    margin-top: 0 !important;
-  } */
-  
+  .activity-img {
+    width: 100%;
+  }
 }
+
 @media only screen and (min-width: 870px) {
   .LI-profile-badge {
     margin-top: -3rem;
+  }
+  .activity-img {
+    width: 800px;
   }
 }
 
